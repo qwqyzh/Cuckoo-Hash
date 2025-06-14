@@ -1,0 +1,11 @@
+nvcc insert.cu -o insert
+./insert
+
+nvcc lookup.cu -o lookup
+./lookup
+
+nvcc tablesize.cu -o tablesize
+./tablesize
+
+nvcc maxstep.cu -o maxstep
+./maxstep
